@@ -1,0 +1,6 @@
+com\ibm\demo\repository\offerMongoRepository.class
+com\ibm\demo\MobileUsageModifiedApplication.class
+com\ibm\demo\OfferRestController.class
+com\ibm\demo\model\offerService.class
+com\ibm\demo\producer\Producer.class
+com\ibm\demo\repository\OfferSearchRepository.class

@@ -46,7 +46,7 @@ public class OfferRestController {
 	     String json = gson.toJson(offer);
 		producer.produceMsg(json);
 		logger.info(json);
-		logger.info("Offers pack will be activated within 24 hr. for User: "+offer.getuserName());
+		logger.info("Offer pack will be activated within 24 hr. for User: "+offer.getuserName());
         return "Offer will be activated within 24 hrs for User: "+offer.getuserName();
     }
 
